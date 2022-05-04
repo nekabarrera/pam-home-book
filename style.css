@@ -1,0 +1,105 @@
+/* css variables */
+:root {
+  --shadow-color: gray;
+  --green: mediumspringgreen;
+}
+
+/* global styles (things that exist throughout) */
+/* typography */
+
+.h1 {
+  font-family: monospace;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px var(--shadow-color);
+}
+
+.h2 {
+  font-family: monospace;
+  text-shadow: 2px 2px 2px var(--shadow-color);
+  font-size: 23px;
+  text-align: center;
+}
+/* colors */
+.color-green {
+  --shadow-color: lightpink;
+  color: var(--green);
+}
+
+.color-purple {
+  --shadow-color: coral;
+  color: mediumslateblue;
+}
+
+.color-orange {
+  font-family: monospace;
+  color: orange;
+}
+/* borders */
+
+.border-green {
+  border-style: dotted;
+  border-color: mediumspringgreen;
+}
+
+.border-purple {
+  border-style: dotted;
+  border-color: mediumslateblue;
+}
+
+/* sections */
+
+/* .hero {
+ } */
+
+.staff-picks {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.staff-picks-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.author {
+  font-family: monospace;
+  color: mediumslateblue;
+  font-size: 15px;
+  font-style: bold;
+  text-shadow: 2px 2px 2px coral;
+}
+
+.book-title {
+  font-family: monospace;
+  color: mediumspringgreen;
+  font-style: italic;
+  text-shadow: 2px 2px 2px mediumslateblue;
+}
+
+/* .special-events { */
+/* } */
+
+.event-title {
+  font-family: monospace;
+  color: mediumspringgreen;
+  padding-left: 20px;
+  font-style: italic;
+}
+
+.date-time-place {
+  font-family: monospace;
+  color: mediumslateblue;
+  padding-left: 20px;
+}
+
+.supporting-text {
+  font-family: monospace;
+  color: lightpink;
+  padding-left: 20px;
+}
+
+.event-photo {
+  padding: 20px;
+}
